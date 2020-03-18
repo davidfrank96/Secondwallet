@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5,
 .btn1 {
   font-size: 16px;
   border-radius: 30px;
-  padding: 10px 30px; }
+  padding: 15px 35px; }
   .btn1:hover, .btn1:active, .btn1:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -99,8 +99,8 @@ h1, h2, h3, h4, h5,
     background: #404040;
     border-color: #404040;
     color: #fff;
-    -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
-    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4); }
+    -webkit-box-shadow: 0 4px 20px -5px rgba(39, 48, 46, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(33, 39, 38, 0.4); }
     .btn1.btn-primary1:hover {
       background: transparent;
       border-color: #404040;
