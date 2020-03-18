@@ -56,15 +56,14 @@
           </div>
 
           <div class="col-12 col-md-10 main-menu">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+            <nav class="site-navigation position-relative text-right " role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+      
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <!-- <li><a href="#features-section" class="nav-link">Features</a></li> -->
+                 <li><a href="#features-section" class="nav-link">Features</a></li> 
                 <li><a href="#about-section" class="nav-link">About Us</a></li>
-                <!-- <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -91,7 +90,7 @@
                 <h1>SignUp with Us Today</h1>
                 <p class="mb-5">For Quick Loans and Good returns of Investments give us the Chance to be your Second Wallet</p>
                 <div>
-                  <a href="https://forms.gle/JMZmv3MazbsWEPkh6" class="btn btn-primary mr-2 mb-2">Invest </a>
+                  <a href="https://forms.gle/JMZmv3MazbsWEPkh6" class="btn btn-primary mr-2 mb-2" target="_blank">Invest </a>
                   <a href="#" class="btn1 btn-primary1 mr-2 mb-2">Loan</a>
                 </div>
               </div>
@@ -121,7 +120,7 @@
               </div>
               <div>
                 <h3>Cash Security</h3>
-                <p>We provide one of the best cash security for Our investors and our Users</p>
+                <p>We provide the best cash security for Our investors and our Users</p>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -399,7 +398,7 @@
       </div>
     </div> -->
 
-    <!-- <div class="site-section bg-light" id="contact-section">
+     <div class="site-section bg-light" id="contact-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -462,7 +461,7 @@
         </div>
         
       </div>
-    </div> -->
+    </div> 
 
     <div class="footer py-5 border-top text-center">
       <div class="container">
@@ -509,5 +508,19 @@
   
   <script src="js/main.js"></script>
     
+<SCRIPT language=JavaScript>
+
+  var message = "function disabled";
+
+  function rtclickcheck(keyp) {
+    if (navigator.appName == "Netscape" && keyp.which == 3) { alert(message); return false; }
+
+    if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; }
+  }
+
+  document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+
   </body>
 </html>
