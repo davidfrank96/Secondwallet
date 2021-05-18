@@ -929,19 +929,23 @@ section.loan-calculator:before {
 }
 
 .single-input input {
-    width: 100%;
+    width: auto;
     height: 50px;
-    padding-left: 50px;
+    padding: 20px 50px;
     background-color: #f3a541;
     border: 1px solid #404755;
     border-radius: 4px;
     color: #fff;
-    margin-left: 50%;
+    margin-left: 20%;
     
 }
 
 .single-input {
     margin-bottom: 20px
+}
+
+.value{
+    text-align: center;
 }
 
 .submitbtn {
