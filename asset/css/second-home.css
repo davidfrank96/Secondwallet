@@ -480,11 +480,11 @@ section.dream-quote:before {
 /*start second testimonial section*/
 
 section.second-testimonial.section-padding {
-    background: #3a7cdd;
+    background: transparent;
 }
 
 .second-single-testimonial {
-    color: #fff;
+    color: #3a7cdd;
     font-size: 24px;
     text-align: center;
     line-height: 35px;
