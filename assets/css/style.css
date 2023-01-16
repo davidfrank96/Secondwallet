@@ -9760,16 +9760,16 @@ Countdown Clock Style
   color: #f2b636;
 }
 .form-input-item.light input::-ms-input-placeholder, .form-input-item.light textarea::-ms-input-placeholder {
-  color: #f2b636;
+  color: #ffffff;
 }
 .form-input-item.light input::placeholder, .form-input-item.light textarea::placeholder {
-  color: #f2b636;
+  color: #ffffff;
 }
 .form-input-item.light input:focus, .form-input-item.light textarea:focus {
   border-bottom-color: #FFFFFF;
 }
 .form-input-item.light .btn-bordered {
-  color: #f2b636;
+  color: #ffffff;
 }
 .form-input-item.light .btn-bordered:hover {
   color: #FFFFFF;
