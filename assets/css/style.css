@@ -79,7 +79,7 @@
    01. Typography CSS
 ===================================== */
 body {
-  color: #878c9b;
+  color: #807d7d;
   font-size: 1.125rem;
   font-family: "Karla", sans-serif;
   font-weight: 400;
@@ -92,6 +92,10 @@ body {
   }
 }
 
+
+.black{
+  color:#000000
+}
 /* Remove text-shadow in selection highlight. */
 ::-moz-selection {
   background: #f2b636;
@@ -358,7 +362,7 @@ button:active, button:focus {
   background-color: #f2b636;
 }
 .bg-secondary {
-  background-color: #182141 !important;
+  background-color: #2467B3 !important;
 }
 .bg-secondary-soft {
   background-color: #263466;
@@ -371,7 +375,7 @@ button:active, button:focus {
 }
 
 .text-brand {
-  color: #f2b636;
+  color: #000000;
 }
 
 /*============================
@@ -553,6 +557,22 @@ button:active, button:focus {
   }
 }
 .section-title h5 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.white{
+  color:white
+}
+.yellow{
+  color:#f2b636;
+}
+.section-title h4 {
   color: #f2b636;
   font-size: 25px;
   font-weight: 700;
@@ -9892,7 +9912,7 @@ Countdown Clock Style
   position: relative;
 }
 .about-page-2-feature-area:before {
-  background-color: rgba(24, 33, 65, 0.95);
+  background-color:  #2467B3;
   content: "";
   position: absolute;
   left: 0;
